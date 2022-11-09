@@ -6,7 +6,7 @@ steps:
 - task: Maven@3
   displayName: 'Maven app/pom.xml'
   inputs:
-    mavenPomFile: 'gs-spring-boot-master/app/pom.xml'
+    mavenPomFile: 'HoussemDellai-gs-spring-boot/tree/main/gs-spring-boot-master/app'
     codeCoverageToolOption: Cobertura
 
 - task: CopyFiles@2
